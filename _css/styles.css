@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/* CSS Document */
+@charset "utf-8";
 
 body {
     font-family: sans-serif;
@@ -8,8 +7,12 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: cursive;
-    font-size: 275%;
+    font-family: fantasy;
+    font-size: 300%;
+}
+h2 {
+    font-family: monospace;
+    font-size: 200%;
 }
 a {
     text-decoration: none;
@@ -21,7 +24,6 @@ nav ul {
     margin: 0;
     list-style-type: none;
     text-align: center;
-    border: 2px solid black;
 }
 
 nav li {
@@ -37,4 +39,10 @@ header {
 img.home {
     height: 50%;
     width: 50%;
+    border: 5px solid black;
+}
+p.intro {
+    font-family: Georgia;
+    font-size: 150%;
+    text-align: right;
 }
