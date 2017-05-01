@@ -1,9 +1,19 @@
 @charset "utf-8";
 
+header {
+    border: 4px solid black;
+	background: url("../_images/banner.png");
+}
+
+.h1 {
+	text-color: white;
+}
+
 body {
     font-family: Georgia;
     font-size: 16px;
     background-color: whitesmoke;
+	padding: 60px;
 }
 h1 {
     text-align: center;
@@ -32,9 +42,7 @@ nav li {
     border: 2px solid black;
     background-color: lightgrey;
 }
-header {
-    border: 4px solid black;
-}
+
 
 img.home {
     height: 50%;
