@@ -10,14 +10,14 @@ header {
 	padding: 10px;
 }
 
-header h1 a:link {
-	color: white;
+header h1 {
+	font-size: 40px; 
+	font-size: 4.0em;
 }
-header h1 a:visited {
+
+header h1 a:link, header h1 a:visited {
 	color: white;
-	outline-color: black;
-	outline: 1px;
-	outline-style: solid;
+	text-shadow: 4px 4px 5px black;
 }
 
 body {
@@ -25,6 +25,10 @@ body {
     font-size: 16px;
 	font-size: 1.6rem;
     background-color: whitesmoke;
+}
+
+main {
+	margin: 5px 20px 5px 20px;
 }
 
 form, form title {
@@ -167,6 +171,15 @@ h1.page {
 
 h2.jobs {
     font-size: 100%;
+}
+
+.newimg, .grocimg {
+	width: 25%;
+	height: 25%;
+}
+
+figcaption {
+	max-width: 300px;
 }
 
 footer {
