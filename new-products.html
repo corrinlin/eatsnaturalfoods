@@ -16,10 +16,10 @@
 						<li><a href="our-story.html">Our Story</a></li>
 						<li class="dropdown"><a href="javascript:void(0)" class="dropbtn"><a id="CurrentPage" href="new-products.html">Products</a></a>
 							<div class="dropdown-content">
-								<a href="beer-wine.html">Beer and Wine Making</a>
+								<a href="beer-wine.html">Beer and Wine Making</a><br>
 								<a href="bulk.html">Bulk</a><br>
-								<a href="grocery.html">Grocery</a>
-								<a href="health-beauty.html">Health and Beauty</a>
+								<a href="grocery.html">Grocery</a><br>
+								<a href="health-beauty.html">Health and Beauty</a><br>
 								<a href="green.html">Green Home</a><br>
 								<a href="books-gifts.html">Books and Gifts</a>
 							</div>
@@ -55,6 +55,26 @@
 				<img src="_images/gourmet1.jpeg" alt="Various gourmet cheeses" title="Eats has many gourmet cheeses to choose from." />
 				<img src="_images/gourmet2.jpeg" alt="Olli gourmet product" title="Eats has many gourmet products." />
 				<img src="_images/gourmet3.jpeg" alt="Various gourmet crackers" title="Eats sells gourmet crackers as a complement to their cheese." />
+			</section>
+			<section>
+			<h2>Requesting an Item</h2>
+			<p>To request an item not currently in stock, fill out the form below and a staff member will get back to you as soon as possible.</p>
+				<form action="/action_page.php">
+				Customer name: <input type="text" name="customername"><br>
+				Email address: <input type="text" name="emailaddress"><br>
+				Phone number: <input type="text" name="phonenumber"><br>
+				Product name: <input type="text" name="productname"><br>
+				Product type:<br>
+					<input type="radio" name="producttype" value="produce">Produce<br>
+					<input type="radio" name="producttype" value="othergrocery">Other grocery<br>
+					<input type="radio" name="producttype" value="bulk">Bulk<br>
+					<input type="radio" name="producttype" value="healthbeauty">Health and Beauty<br>
+					<input type="radio" name="producttype" value="home">Home<br>
+					<input type="radio" name="producttype" value="books">Books<br>
+					<input type="radio" name="producttype" value="other">Other<br>
+				Anything else we should know? <input type="text" name="comments"><br><br>
+				<input type="submit" value="Submit">
+				</form>
 			</section>
 		</main>
 		
