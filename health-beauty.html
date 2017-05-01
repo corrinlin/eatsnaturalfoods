@@ -39,6 +39,26 @@
 		
 		<main>
 			<h1>Health and Beauty</h1>
+			<div id="itemrequest">
+			<h2>Requesting an Item</h2>
+			<p>To request an item not currently in stock, fill out the form below and a staff member will get back to you as soon as possible.</p>
+				<form action="/action_page.php">
+				Name: <br><input type="text" name="customername"><br><br>
+				Email address: <input type="text" name="emailaddress"><br><br>
+				Phone number: <input type="text" name="phonenumber"><br><br>
+				Product name: <input type="text" name="productname"><br><br>
+				Product type:<br>
+					<input type="radio" name="producttype" value="produce">Produce<br>
+					<input type="radio" name="producttype" value="othergrocery">Other grocery<br>
+					<input type="radio" name="producttype" value="bulk">Bulk<br>
+					<input type="radio" name="producttype" value="healthbeauty">Health and Beauty<br>
+					<input type="radio" name="producttype" value="home">Home<br>
+					<input type="radio" name="producttype" value="books">Books<br>
+					<input type="radio" name="producttype" value="other">Other<br>
+				Anything else we should know? <input type="text" name="comments"><br><br>
+				<input type="submit" value="Submit">
+				</form>
+			</div>
 			<section>
 				<h2>Vitamins and Supplements</h2>
 				<p>Eats carries a large selection of nutritional supplements and herbs from reputable companies. We check our vendors carefully and only carry products from companies that meet our high standards. We are always looking at new products, but we only pick them up if we feel they are safe and effective. In this vein, we do not carry many diet products, because most of them we have found do not work.</p>
@@ -59,26 +79,6 @@
 				
 				<img src="_images/personal1.jpeg" alt="A shelf personal care items and a staff member" title="Ask our staff if you would like to order a specific product." />
 				<img src="_images/personal2.jpeg" alt="A shelf personal care items" title="Eats provides a variety of personal care items." />
-			</section>
-			<section>
-			<h2>Requesting an Item</h2>
-			<p>To request an item not currently in stock, fill out the form below and a staff member will get back to you as soon as possible.</p>
-				<form action="/action_page.php">
-				Customer name: <input type="text" name="customername"><br>
-				Email address: <input type="text" name="emailaddress"><br>
-				Phone number: <input type="text" name="phonenumber"><br>
-				Product name: <input type="text" name="productname"><br>
-				Product type:<br>
-					<input type="radio" name="producttype" value="produce">Produce<br>
-					<input type="radio" name="producttype" value="othergrocery">Other grocery<br>
-					<input type="radio" name="producttype" value="bulk">Bulk<br>
-					<input type="radio" name="producttype" value="healthbeauty">Health and Beauty<br>
-					<input type="radio" name="producttype" value="home">Home<br>
-					<input type="radio" name="producttype" value="books">Books<br>
-					<input type="radio" name="producttype" value="other">Other<br>
-				Anything else we should know? <input type="text" name="comments"><br><br>
-				<input type="submit" value="Submit">
-				</form>
 			</section>
 		</main>
 		

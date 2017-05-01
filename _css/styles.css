@@ -180,8 +180,10 @@ div#itemrequest {
 	width: 250px;
 	border: 2px solid black;
 	background-color: lightgrey;
-	padding: 10px;
-	margin-left: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: 20px;
 	margin-bottom: 10px;
 }
 
