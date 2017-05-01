@@ -1,29 +1,39 @@
 @charset "utf-8";
 
+html {
+	font-size: 62.5%;
+}
+
 header {
     border: 4px solid black;
 	background: url("../_images/banner.png");
 }
 
-.h1 {
-	text-color: white;
+
+header h1 a:link {
+	color: white;
+}
+header h1 a:visited {
+	color: white;
 }
 
 body {
     font-family: Georgia;
     font-size: 16px;
     background-color: whitesmoke;
-	padding: 60px;
 }
 h1 {
     text-align: center;
     font-family: fantasy;
-    font-size: 300%;
+    font-size: 50px;
+	font-size: 5.0em;
 }
+
 h2 {
     font-family: monospace;
     font-size: 200%;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -43,7 +53,6 @@ nav li {
     background-color: lightgrey;
 }
 
-
 img.home {
     height: 50%;
     width: 50%;
@@ -52,10 +61,10 @@ img.home {
 
 p.intro {
     font-size: 150%;
-    text-align: right;
+    text-align: left;
 }
 p.ourstory {
-    text-align: right;
+    text-align: left;
 }
 
 img.ourstory1 {
