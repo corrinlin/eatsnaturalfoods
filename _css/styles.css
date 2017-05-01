@@ -39,6 +39,10 @@ h1 {
     font-size: 50px;
 	font-size: 5.0rem;
 }
+main h1 {
+	font-size: 40px;
+	font-size: 4.0rem;
+}
 
 h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Dejavu Sans", Verdana, sans-serif;
@@ -46,11 +50,21 @@ h2 {
 	font-size: 2.4rem;
 }
 
-a {
+a:link {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
+a:visited {
+	color: purple;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: blue;
+}
+	
 nav ul {
     padding: 0px;
     margin: 0px;
@@ -82,6 +96,11 @@ nav li a:hover, .dropdown:hover .dropbtn {
 	background-color: darkgrey;
 	text-align: left;
 	text-decoration: strong;
+}
+
+nav li a:visited, a:active, a:link {
+	text-decoration: none;
+	color: black;
 }
 
 .dropdown {

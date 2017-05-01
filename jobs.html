@@ -21,33 +21,60 @@
 								<a href="bulk.html">Bulk</a><br>
 								<a href="grocery.html">Grocery</a><br>
 								<a href="health-beauty.html">Health and Beauty</a><br>
-								<a href="green.html">Green</a><br>
+								<a href="green.html">Green Home</a><br>
 								<a href="books-gifts.html">Books and Gifts</a>
 							</div>
 						</li>
-						<li><a href="recipes.html">Recipes</a></li>
+						<li class="dropdown"><a href="javascript:void(0)" class="dropbtn"><a href="recipes.html">Recipes</a></a>
+							<div class="dropdown-content">
+								<a href="may-recipe.html">May Recipe of the Month</a><br>
+								<a href="april-recipe.html">April Recipe of the Month</a><br>
+								<a href="march-recipe.html">March Recipe of the Month</a>
+							</div>
+						</li>
 						<li><a id="CurrentPage" href="jobs.html">Employment</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</nav>
 			</header>
             <main>
-            <h1 class="page">Join our Team!</h1>
-            <p class="jobs">Eats is always accepting applications to expand our team of dedicated and friendly staff.</p>
-                <p class="jobs">We want to hire individuals who are committed to a healthy lifestyle, willing to learn all aspects of the store, and interested in long-term employment.</p>
-                <ul>Qualified candidates must be able to:<li>Work nights and weekends</li><li>Be available during busy holiday seasons</li><li>Lift 50lbs</li><li>Customer service and/or retail experience is preferred</li></ul>
-                <ul>Benefits include:<li>Paid vacation</li><li>Profit-sharing</li><li>Health and dental insurance (full-time)</li></ul>
-            </main>
-            <footer>
+            <h1>Join our Team!</h1>
+            <p>Eats is always accepting applications to expand our team of dedicated and friendly staff.</p>
+                <p>We want to hire individuals who are committed to a healthy lifestyle, willing to learn all aspects of the store, and interested in long-term employment.</p>
+                <p>Qualified candidates must be able to:
+				<ul>
+					<li>Work nights and weekends</li>
+					<li>Be available during busy holiday seasons</li>
+					<li>Lift 50lbs</li>
+					<li>Customer service and/or retail experience is preferred</li>
+				</ul></p>
+                <p>Benefits include:
+				<ul>
+					<li>Paid vacation</li>
+					<li>Profit-sharing</li>
+					<li>Health and dental insurance (full-time)</li>
+				</ul></p>
+
                 <h2 class="jobs">Fill out our application below if you're interested!</h2>
-	<form action="/action_page.php" method="post">
-	  First name:
-	  <input type="text" name="firstname">
-	  <br>
-	  Last name:<br>
-	  <input type="text" name="lastname">
-	  
-	</form>
+				<form action="/action_page.php" method="post">
+				  First name: <input type="text" name="firstname">
+				  <br>
+				  Last name: <input type="text" name="lastname">
+				  <br>
+				  Email address: <input type="text" name="emailaddress">
+				  <br>
+				  Phone number: <input type="text" name="phonenumber">
+				  <br>
+				  Position(s) you are applying for:<br>
+					<input type="checkbox" name="position" value="cashier">Cashier<br>
+					<input type="checkbox" name="position" value="stocker">Stocker<br>
+					<input type="checkbox" name="position" value="other">Other<br>
+				  Best time to contact you:<br>
+					<input type="checkbox" name="time" value="morning">Morning<br>
+					<input type="checkbox" name="time" value="afternoon">Afternoon<br>
+					<input type="checkbox" name="time" value="evening">Evening<br>  
+				</form>
+			</main>
 		<footer>
 			<p>&copy; Eats Natural Foods 2017</p>
 			<p>Cover image is licensed under a Creative Commons Attribution-ShareAlike 2.0 Generic License by David Mulder.</p>
