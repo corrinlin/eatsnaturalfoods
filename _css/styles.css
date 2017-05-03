@@ -171,11 +171,6 @@ h2.jobs {
     font-size: 100%;
 }
 
-.newimg, .grocimg {
-	width: 25%;
-	height: 25%;
-}
-
 div#itemrequest {
 	float: right;
 	width: 250px;
@@ -192,11 +187,16 @@ div#jobform {
 	width: 400px;
 }
 
+<<<<<<< HEAD
 #jobform input[type=text] {
 	padding: 6px 10px;
 	margin: 8px 0;
 	display: inline-block;
 	border-radius: 4px;
+=======
+div#NewProductsPics, div#GroceryPics {
+	margin-left: -40px;
+>>>>>>> origin/master
 }
 
 #jobform input[type=submit] {
@@ -209,7 +209,7 @@ div#jobform {
 }
 
 figcaption {
-	max-width: 300px;
+	max-width: 680px;
 }
 
 footer {
