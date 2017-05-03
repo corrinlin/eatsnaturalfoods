@@ -187,6 +187,10 @@ div#jobform {
 	width: 400px;
 }
 
+div#NewProductsPics, div#GroceryPics {
+	margin-left: -40px;
+}
+
 #jobform input[type=submit] {
 	background-color: #4CAF50;
 	color: white;
@@ -197,10 +201,6 @@ div#jobform {
 }
 
 figcaption {
-	max-width: 900px;
-}
-
-#GroceryPics figcaption {
 	max-width: 680px;
 }
 
