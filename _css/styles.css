@@ -219,6 +219,10 @@ figcaption {
 	max-width: 680px;
 }
 
+#NavTop {
+	color: green;
+}
+
 footer {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Dejavu Sans", Verdana, sans-serif;
 	font-size: 12px;
