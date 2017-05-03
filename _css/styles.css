@@ -83,6 +83,10 @@ nav li {
     background-color: lightgrey;
 }
 
+nav.page-navigation li a:hover {
+	text-decoration: underline;
+}
+
 a#CurrentPage {
 	font-weight: bold;
 }
@@ -106,6 +110,8 @@ nav li a:visited, a:active, a:link {
 	text-decoration: none;
 	color: black;
 }
+
+
 
 .dropdown {
 	position: relative;
