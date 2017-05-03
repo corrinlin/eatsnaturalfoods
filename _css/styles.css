@@ -168,6 +168,11 @@ img.img_rightalign {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
+img#meatsimg {
+	margin-left: -40px;
+}
+
 h1.page {
     font-family: monospace;
     font-size: 200%;
