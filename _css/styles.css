@@ -186,6 +186,13 @@ div#itemrequest {
 div#jobform {
 	width: 400px;
 }
+
+#itemrequest input[type=text] {
+	padding: 3px 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border-radius: 4px;
+}
 #itemrequest input[type=submit] {
 	background-color: #4CAF50;
 	color: white;
