@@ -200,6 +200,10 @@ figcaption {
 	max-width: 900px;
 }
 
+#GroceryPics figcaption {
+	max-width: 680px;
+}
+
 footer {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Dejavu Sans", Verdana, sans-serif;
 	font-size: 12px;
