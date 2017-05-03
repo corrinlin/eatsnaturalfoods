@@ -171,11 +171,6 @@ h2.jobs {
     font-size: 100%;
 }
 
-.newimg, .grocimg {
-	width: 25%;
-	height: 25%;
-}
-
 div#itemrequest {
 	float: right;
 	width: 250px;
@@ -202,7 +197,7 @@ div#jobform {
 }
 
 figcaption {
-	max-width: 300px;
+	max-width: 900px;
 }
 
 footer {
